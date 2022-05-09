@@ -21,11 +21,11 @@ The purpose of this project is to analyze math and reading scores of Thomas High
 ### Impact on District Analysis
 *District Summary Before*
 
-![District Summary Before]
+![District Summary Before](https://github.com/meliscelikay/School_District_Analysis/blob/354c7f783d1e9bc32582b71fc05f59f0f9815a51/Resources/Resources-png/district_summary-before.png)
 
 *District Summary After*
 
-![District Summary After]
+![District Summary After](https://github.com/meliscelikay/School_District_Analysis/blob/354c7f783d1e9bc32582b71fc05f59f0f9815a51/Resources/Resources-png/district_summary-after.png)
 
 - The data did not have affected in terms of Total Schools, Total Students and Total Budget.
 - `Average Math scores` decreased by 0.1% from 79 to 78.9 and `Average Reading scores` did not change.
@@ -34,73 +34,65 @@ The purpose of this project is to analyze math and reading scores of Thomas High
 ### Impact on the School Summary 
 *School Summary Before*
 
-![Per_School_Summary_Before]
+![Per_School_Summary_Before](https://github.com/meliscelikay/School_District_Analysis/blob/354c7f783d1e9bc32582b71fc05f59f0f9815a51/Resources/Resources-png/School_Summary_Before.png)
 
 *School Summary After*
 
-![Per_School_Summary_After]
+![Per_School_Summary_After](https://github.com/meliscelikay/School_District_Analysis/blob/354c7f783d1e9bc32582b71fc05f59f0f9815a51/Resources/Resources-png/School_Summary_After.png)
 
 - `Average Math` at Thomas High School decreased from 83.42 to 83.35 and `Average Reading` at Thomas High School slightly increased from 83.85 to 83.90.
 - `Percent Passing Math` at Thomas High School greatly decreased from 93.27% to 66.91%, `Percent Passing Reading` at Thomas High School decreased from 97.31% to 69.66% and `Percent Overall Passing` at Thomas High School decreased from 90.95% to 65.08%.
 
 ### Replacing the ninth graders’ math and reading scores affected Thomas High School’s performance relative to the other schools
 Replacing the ninth graders' math and reading scores with Nan values affects drastically Thomas High School's performance relative to the other schools by showing that Passing students for Math and Reading decread almost 27 -28% and Overall Passing students dropped to almost 25-26%.
-![Excluding_False_Data]
+![Excluding_False_Data](https://github.com/meliscelikay/School_District_Analysis/blob/354c7f783d1e9bc32582b71fc05f59f0f9815a51/Resources/Resources-png/Excluding_False_Data.png)
 
 While the average math, reading and overall scores at Thomas High School were impacted with the update, the changes only had a small impact.
-![Top_School_Original]
+![Top_School_Original](https://github.com/meliscelikay/School_District_Analysis/blob/354c7f783d1e9bc32582b71fc05f59f0f9815a51/Resources/Resources-png/Top_School_Original.png)
 
-![Top_School_Updated]
+![Top_School_Updated](https://github.com/meliscelikay/School_District_Analysis/blob/0fe0bedce497919fe35cc53031e7bd9cd37515a6/Resources/Resources-png/Top_School_Updated.png)
 
 ### Replacing the ninth-grade scores affect the following:
-* Math and reading scores by grade:
+- Math and reading scores by grade:
 The data simply becomes `nan` when replacing the ninth-graders scores affects the math and reading scores by grade simply by excluding the data for that column for that specific grade and that specific school.
 
 *Math Scores Before & After*
 
-![Math_scores_Before]
+![Math_scores_Before](https://github.com/meliscelikay/School_District_Analysis/blob/0fe0bedce497919fe35cc53031e7bd9cd37515a6/Resources/Resources-png/Math_score_Before.png)
 
-
-![Math_scores_After]
+![Math_scores_After](https://github.com/meliscelikay/School_District_Analysis/blob/0fe0bedce497919fe35cc53031e7bd9cd37515a6/Resources/Resources-png/Math_scores_After.png)
 
 *Reading Scores Before & After*
 
-![Reading_scores_Before]
+![Reading_scores_Before](https://github.com/meliscelikay/School_District_Analysis/blob/0fe0bedce497919fe35cc53031e7bd9cd37515a6/Resources/Resources-png/Reading_scores_Before.png)
 
+![Reading_scores_After](https://github.com/meliscelikay/School_District_Analysis/blob/0fe0bedce497919fe35cc53031e7bd9cd37515a6/Resources/Resources-png/Reading_scores_After.png)
 
-![Reading_scores_After]
-
-
-*Scores by school spending Before & After:
+- Scores by school spending Before & After:
 Thomas High School fell in the category of spending range per student of $631- $645,
 
-![School_Spending_Before]
+![School_Spending_Before](https://github.com/meliscelikay/School_District_Analysis/blob/0fe0bedce497919fe35cc53031e7bd9cd37515a6/Resources/Resources-png/School_Spending_Before.png)
 
+![School_Spending_After](https://github.com/meliscelikay/School_District_Analysis/blob/0fe0bedce497919fe35cc53031e7bd9cd37515a6/Resources/Resources-png/School_Spending_After.png)
 
-![School_Spending_After]
-
-
-*Scores by school size Before & After:
+- Scores by school size Before & After:
 Thomas High School fell in the Medium Category(1000-2000),
 
-![School_Size_Before]
+![School_Size_Before](https://github.com/meliscelikay/School_District_Analysis/blob/0fe0bedce497919fe35cc53031e7bd9cd37515a6/Resources/Resources-png/School_Size_Before.png)
 
-![School_Size_After]
+![School_Size_After](https://github.com/meliscelikay/School_District_Analysis/blob/0fe0bedce497919fe35cc53031e7bd9cd37515a6/Resources/Resources-png/School_Size_After.png)
 
-
-*Scores by school type Before & After:
+- Scores by school type Before & After:
 Thomas High School fell in the Charter category,
 
-![School_type_Before]
+![School_type_Before](https://github.com/meliscelikay/School_District_Analysis/blob/0fe0bedce497919fe35cc53031e7bd9cd37515a6/Resources/Resources-png/School_type_Before.png)
 
-![School_type_After]
-
+![School_type_After](https://github.com/meliscelikay/School_District_Analysis/blob/0fe0bedce497919fe35cc53031e7bd9cd37515a6/Resources/Resources-png/School_type_After.png)
 
 ## Summary: 
 The changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
-*There was not a major difference in total District performance when Thomas High School 9th grade students scores were removed (Nans). Math, Reading, and overall results had either no impact or at most 1% difference. 
-*There were significant changes to Thomas High School performance when 9th grade data was removed for Math, Reading, and total scores. On average results decreased by 25%. 
-*Thomas High School ranking was impacted as well, it went from 2nd place to 8th place in the District. 
-*Data clearly shows Charter schools performed much better compared to District schools in every measurable category.  
-*It is also clear Large schools (2000-5000) had the worst scores. Small and Medium size schools had higher scores.  
-
+- There was not a major difference in total District performance when Thomas High School 9th grade students scores were removed (Nans). Math, Reading, and overall results had either no impact or at most 1% difference. 
+- There were significant changes to Thomas High School performance when 9th grade data was removed for Math, Reading, and total scores. On average results decreased by 25%. 
+- Thomas High School ranking was impacted as well, it went from 2nd place to 8th place in the District. 
+- Data clearly shows Charter schools performed much better compared to District schools in every measurable category.  
+- It is also clear Large schools (2000-5000) had the worst scores. Small and Medium size schools had higher scores.  
